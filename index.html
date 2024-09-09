@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">It's Movie Time</div>
+        
+        <input type="text" id="search-input" placeholder="Search for movies...">
+        <button id="wishlist-btn">Wishlist</button>
+    </header>
+    <main>
+        <section id="movies-grid" class="movies-grid"></section>
+    </main>
+    <div id="movie-modal" class="modal">
+        <div class="modal-content">
+            <span class="close movie-close">&times;</span>
+            <div id="movie-details"></div>
+        </div>
+    </div>
+    <div id="wishlist-modal" class="modal">
+        <div class="modal-content">
+            <span class="close wishlist-close">&times;</span>
+            <h2>Wishlist</h2>
+            <div id="wishlist-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
